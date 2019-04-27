@@ -1,5 +1,5 @@
 # BargainingBot
-An Bot that bargains for the price of drinks with customers.
+A Bot that bargains for the price of drinks with customers.
 
 The Bargaining Bot was my final year engineering project. There are various parts to the system.
 
