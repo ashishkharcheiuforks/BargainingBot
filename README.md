@@ -40,8 +40,18 @@ The Bargaining Bot was my final year engineering project. The front end is an **
    If you want to try it out you will need a Dialogflow account, a Google Cloud Platform (GCP) account, and a Firebase account.
  Firebase and Dialogflow both work on GCP itself so make sure Firebase, Dialogflow and GCP are all working on the same project.
  
- [Use this dialogflow template](https://github.com/shounakmulay/BargainingBot/blob/master/BargainingAgent.zip). It has all the necessary intents, actions and parameters setup. You can upload this zip to dialogflow and then customize it to your liking.
+ 1. [Use this dialogflow template](https://github.com/shounakmulay/BargainingBot/blob/master/BargainingAgent.zip). It has all the necessary intents, actions and parameters setup. You can upload this zip to dialogflow and then customize it to your liking.
  
- Next setup the [webhook](https://github.com/shounakmulay/BargainingBotDialogflowWebhook) on Firebase Cloud Functions. Add the url of the function to the dialogflow webhook section.
+ 2. Next setup the [webhook](https://github.com/shounakmulay/BargainingBotDialogflowWebhook) on Firebase Cloud Functions. Add the url of the function to the dialogflow webhook section. 
+ 
+ 3. Build your [Tensorflow Model](https://github.com/shounakmulay/BargainingBotTensorflowModel) and upload the exported file to Cloud ML Engine on GCP. You will need to link to this model in the weebhook.
+ 
+ 3. Create the Cloud Firestore database on Firebase and setup as shown in the images : [1](https://github.com/shounakmulay/BargainingBot/blob/master/1.jpg), [2](https://github.com/shounakmulay/BargainingBot/blob/master/2.jpg). The collections that are not explored in the images are blank collections for now that will be filled by the android app.
+ 
+ 5. Next create a [Cloud Pub/Sub](https://cloud.google.com/pubsub/docs/) topic on GCP. Add your topic name to the code in the next step.
+ 
+ 6. Create another cloud function in similar way to the previous one [from this repo](https://github.com/shounakmulay/BargainingBotDatabasePubSub).
+ 
+ 7. Clone the [Android App](https://github.com/shounakmulay/BargainingBotAndroidApp) and follow the mentioned steps to link it to the firebase project.
  
  
