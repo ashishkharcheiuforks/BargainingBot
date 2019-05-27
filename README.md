@@ -38,4 +38,10 @@ The Bargaining Bot was my final year engineering project. The front end is an **
 
 ### Try it for yourself:
    If you want to try it out you will need a Dialogflow account, a Google Cloud Platform (GCP) account, and a Firebase account.
- Firebase and Dialogflow both work on GCP itself so make sure Firebase, Dialogflow and GCP all are working on the same project.
+ Firebase and Dialogflow both work on GCP itself so make sure Firebase, Dialogflow and GCP are all working on the same project.
+ 
+ [Use this dialogflow template](https://github.com/shounakmulay/BargainingBot/blob/master/BargainingAgent.zip). It has all the necessary intents, actions and parameters setup. You can upload this zip to dialogflow and then customize it to your liking.
+ 
+ Next setup the [webhook](https://github.com/shounakmulay/BargainingBotDialogflowWebhook) on Firebase Cloud Functions. Add the url of the function to the dialogflow webhook section.
+ 
+ 
