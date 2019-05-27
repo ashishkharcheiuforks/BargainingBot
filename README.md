@@ -27,10 +27,15 @@ The Bargaining Bot was my final year engineering project. The front end is an **
 * #### [Cloud Function triggered on a Pub/Sub topic](https://github.com/shounakmulay/BargainingBotDatabasePubSub)
 * #### [Dialogflow](https://dialogflow.com/docs/getting-started)
 
+#### [Link to the Published Paper about this project](http://www.iaeme.com/MasterAdmin/UploadFolder/IJCET_10_01_021/IJCET_10_01_021.pdf).
+
+
 ## 
 
 ![System Architecture](https://github.com/shounakmulay/BargainingBot/blob/master/System%20Architecture%20New.png)
 
 ##
 
-[Link to the Published Paper about this project](http://www.iaeme.com/MasterAdmin/UploadFolder/IJCET_10_01_021/IJCET_10_01_021.pdf).
+### Try it for yourself:
+   If you want to try it out you will need a Dialogflow account, a Google Cloud Platform (GCP) account, and a Firebase account.
+ Firebase and Dialogflow both work on GCP itself so make sure Firebase, Dialogflow and GCP all are working on the same project.
