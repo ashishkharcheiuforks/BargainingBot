@@ -8,6 +8,7 @@ The Bargaining Bot was my final year engineering project. The front end is an **
   * Developing a reactive android app with the **Model-View-ViewModel (MVVM)** architecture pattern.
   * Using dependency injection with [kodein](https://github.com/Kodein-Framework/Kodein-DI).
   * Using the observable patterns with [LiveData](https://developer.android.com/reference/android/arch/lifecycle/LiveData) and [ViewModel](https://developer.android.com/reference/android/arch/lifecycle/ViewModel).
+  * Using Sq-lite local database with the [Room Persistence Library](https://developer.android.com/topic/libraries/architecture/room)
 * **Tensorflow**:
   * Building a basic Linear Regression model.
   * Serving the model on GCP ML Engine.
@@ -16,7 +17,7 @@ The Bargaining Bot was my final year engineering project. The front end is an **
   * Working with JSON.
 * **Firebase**:
   * Implementing Google and Facebook login in android with Firebase Authentication.
-  * Using & modelling a No-SQL database.
+  * Using & modelling a No-SQL database with Cloud Firestore.
   
   
 
@@ -54,4 +55,9 @@ The Bargaining Bot was my final year engineering project. The front end is an **
  
  7. Clone the [Android App](https://github.com/shounakmulay/BargainingBotAndroidApp) and follow the mentioned steps to link it to the firebase project.
  
+ ##
  
+ ### Resources I used: 
+  * [https://github.com/ResoCoder/forecast-mvvm-android-kotlin](https://github.com/ResoCoder/forecast-mvvm-android-kotlin)
+  * [https://proandroiddev.com/mvvm-architecture-viewmodel-and-livedata-part-1-604f50cda1](https://proandroiddev.com/mvvm-architecture-viewmodel-and-livedata-part-1-604f50cda1)
+  * [https://www.tensorflow.org/tutorials/keras/basic_regression](https://www.tensorflow.org/tutorials/keras/basic_regression)
