@@ -1,7 +1,7 @@
 # BargainingBot
 A Bot that bargains for the price of drinks with customers.
 
-The Bargaining Bot was my final year engineering project. The front end is an **Android App** and the back end consists of the Natural Language Processing (NLP) platform - **Dialogflow**, a machine learning **Tensorflow** model, and couple of **Cloud Functions**, along with some Google Cloud Platform (GCP) to make all the different elements work together. Login and Database is handled by **Firebase**.
+The Bargaining Bot was my final year engineering project. The front end is an **Android App** and the back end consists of the Natural Language Processing (NLP) platform - **Dialogflow**, a machine learning **Tensorflow** model, and couple of **Cloud Functions**, along with some Google Cloud Platform (GCP) services to make all the different elements work together. Login and Database is handled by **Firebase**.
 
 ### What I learned : 
 * **Android**: 
